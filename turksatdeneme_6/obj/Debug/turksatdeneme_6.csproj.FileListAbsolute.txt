@@ -74,3 +74,17 @@ C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\obj\Debug\t
 C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\obj\Debug\turksatdeneme_6.csproj.CopyComplete
 C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\obj\Debug\turksatdeneme_6.exe
 C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\obj\Debug\turksatdeneme_6.pdb
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\EntityFramework.dll
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\GMap.NET.Core.dll
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\Newtonsoft.Json.dll
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\System.Data.SQLite.dll
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\EntityFramework.xml
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\Newtonsoft.Json.xml
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\System.Data.SQLite.xml
+C:\Users\CASPER\Desktop\busra\turksat\turksatProject\turksatdeneme_6\bin\Debug\System.Data.SQLite.dll.config

@@ -74,6 +74,11 @@ namespace turksatdeneme_6
             System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Sayfa1 = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.cmbPort = new System.Windows.Forms.ComboBox();
+            this.txtStatu = new System.Windows.Forms.TextBox();
+            this.lblstatu = new System.Windows.Forms.Label();
+            this.lblPort = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtVdGndDnt = new System.Windows.Forms.TextBox();
             this.btnVdGnd = new System.Windows.Forms.Button();
@@ -137,13 +142,9 @@ namespace turksatdeneme_6
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.tmrRefresh = new System.Windows.Forms.Timer(this.components);
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.lblPort = new System.Windows.Forms.Label();
-            this.lblstatu = new System.Windows.Forms.Label();
-            this.txtStatu = new System.Windows.Forms.TextBox();
-            this.cmbPort = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.Sayfa1.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chtYks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chtRPM)).BeginInit();
@@ -165,7 +166,6 @@ namespace turksatdeneme_6
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage1.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -201,6 +201,55 @@ namespace turksatdeneme_6
             this.Sayfa1.Size = new System.Drawing.Size(2051, 1080);
             this.Sayfa1.TabIndex = 0;
             this.Sayfa1.Text = " Sayfa1";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.groupBox4.Controls.Add(this.cmbPort);
+            this.groupBox4.Controls.Add(this.txtStatu);
+            this.groupBox4.Controls.Add(this.lblstatu);
+            this.groupBox4.Controls.Add(this.lblPort);
+            this.groupBox4.Location = new System.Drawing.Point(149, 6);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(289, 128);
+            this.groupBox4.TabIndex = 1;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "groupBox4";
+            // 
+            // cmbPort
+            // 
+            this.cmbPort.FormattingEnabled = true;
+            this.cmbPort.Location = new System.Drawing.Point(99, 26);
+            this.cmbPort.Name = "cmbPort";
+            this.cmbPort.Size = new System.Drawing.Size(154, 24);
+            this.cmbPort.TabIndex = 4;
+            // 
+            // txtStatu
+            // 
+            this.txtStatu.Location = new System.Drawing.Point(99, 91);
+            this.txtStatu.Name = "txtStatu";
+            this.txtStatu.Size = new System.Drawing.Size(154, 22);
+            this.txtStatu.TabIndex = 3;
+            // 
+            // lblstatu
+            // 
+            this.lblstatu.AutoSize = true;
+            this.lblstatu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblstatu.Location = new System.Drawing.Point(32, 96);
+            this.lblstatu.Name = "lblstatu";
+            this.lblstatu.Size = new System.Drawing.Size(49, 17);
+            this.lblstatu.TabIndex = 1;
+            this.lblstatu.Text = "Statü :";
+            // 
+            // lblPort
+            // 
+            this.lblPort.AutoSize = true;
+            this.lblPort.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblPort.Location = new System.Drawing.Point(35, 26);
+            this.lblPort.Name = "lblPort";
+            this.lblPort.Size = new System.Drawing.Size(42, 17);
+            this.lblPort.TabIndex = 0;
+            this.lblPort.Text = "Port :";
             // 
             // groupBox3
             // 
@@ -460,7 +509,7 @@ namespace turksatdeneme_6
             this.lblGPSlt.Name = "lblGPSlt";
             this.lblGPSlt.Size = new System.Drawing.Size(69, 17);
             this.lblGPSlt.TabIndex = 22;
-            this.lblGPSlt.Text = "GPS Lot :";
+            this.lblGPSlt.Text = "GPS Lat :";
             // 
             // lblGPSlg
             // 
@@ -809,7 +858,7 @@ namespace turksatdeneme_6
             series10.ChartArea = "ChartArea1";
             series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Polar;
             series10.Legend = "Legend1";
-            series10.Name = "GPS Lot";
+            series10.Name = "GPS Lat";
             this.chtGPSLt.Series.Add(series10);
             this.chtGPSLt.Size = new System.Drawing.Size(488, 245);
             this.chtGPSLt.TabIndex = 6;
@@ -935,55 +984,6 @@ namespace turksatdeneme_6
             // 
             this.serialPort1.PortName = "COM7";
             // 
-            // groupBox4
-            // 
-            this.groupBox4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox4.Controls.Add(this.cmbPort);
-            this.groupBox4.Controls.Add(this.txtStatu);
-            this.groupBox4.Controls.Add(this.lblstatu);
-            this.groupBox4.Controls.Add(this.lblPort);
-            this.groupBox4.Location = new System.Drawing.Point(149, 6);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(289, 128);
-            this.groupBox4.TabIndex = 1;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "groupBox4";
-            // 
-            // lblPort
-            // 
-            this.lblPort.AutoSize = true;
-            this.lblPort.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblPort.Location = new System.Drawing.Point(35, 26);
-            this.lblPort.Name = "lblPort";
-            this.lblPort.Size = new System.Drawing.Size(42, 17);
-            this.lblPort.TabIndex = 0;
-            this.lblPort.Text = "Port :";
-            // 
-            // lblstatu
-            // 
-            this.lblstatu.AutoSize = true;
-            this.lblstatu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblstatu.Location = new System.Drawing.Point(32, 96);
-            this.lblstatu.Name = "lblstatu";
-            this.lblstatu.Size = new System.Drawing.Size(49, 17);
-            this.lblstatu.TabIndex = 1;
-            this.lblstatu.Text = "Statü :";
-            // 
-            // txtStatu
-            // 
-            this.txtStatu.Location = new System.Drawing.Point(99, 91);
-            this.txtStatu.Name = "txtStatu";
-            this.txtStatu.Size = new System.Drawing.Size(154, 22);
-            this.txtStatu.TabIndex = 3;
-            // 
-            // cmbPort
-            // 
-            this.cmbPort.FormattingEnabled = true;
-            this.cmbPort.Location = new System.Drawing.Point(99, 26);
-            this.cmbPort.Name = "cmbPort";
-            this.cmbPort.Size = new System.Drawing.Size(154, 24);
-            this.cmbPort.TabIndex = 4;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -999,6 +999,8 @@ namespace turksatdeneme_6
             this.Load += new System.EventHandler(this.Form1_Load_1);
             this.tabControl1.ResumeLayout(false);
             this.Sayfa1.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chtYks)).EndInit();
@@ -1022,8 +1024,6 @@ namespace turksatdeneme_6
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage1.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -11,7 +11,7 @@ namespace turksatdeneme_6
 {
    public class Telemetri
     {
-        private static LiteDatabase db = new LiteDatabase(@"database.db");
+        private static readonly LiteDatabase db = new LiteDatabase(@"database.db");
 
         public static object Port1 { get; internal set; }
 
@@ -25,7 +25,7 @@ namespace turksatdeneme_6
         public float Pil_Gerilimi { get; set; }//6
         public float RPM { get; set; }//7
         public float GPS_Long { get; set; }//8
-        public float GPS_Lot { get; set; }//9
+        public float GPS_Lat { get; set; }//9
         public float Pitch { get; set; }//10
         public float Roll { get; set; }//11
         public float Yaw { get; set; }//12
