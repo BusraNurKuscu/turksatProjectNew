@@ -129,22 +129,23 @@ namespace turksatdeneme_6
 
                 var tele = new Telemetri
                 {
-                    Statu = "Beklemede",
+                    Uydu_Statusu = "Beklemede",
                     Basinc = float.Parse(pots[7]) / 100.0f,
-                    Donus_Sayisi = 315,
-                    Roll = 365,
-                    GPS_Long = 37,
+                    Donus_Sayisi = 0,
+                    Roll = float.Parse(pots[4]) / 100.0f,
+                    GPS_Long = 0,
                     Gonderme_Zamani = DateTime.Now,
                     Takim_No = int.Parse(pots[9]),
-                    GPS_Lat = 41,
-                    Inis_Hizi = 3657,
+                    GPS_Lat = 0,
+                    GPS_Alt = 0,
+                    Inis_Hizi = 0,
                     Paket_No = int.Parse(pots[10]),
-                    Pil_Gerilimi = 457,
+                    Pil_Gerilimi = 0,
                     Pitch = float.Parse(pots[1]) / 100f,
-                    RPM = 34,
                     Yaw = float.Parse(pots[5]) / 100f,
-                    Yukseklik = float.Parse(pots[8]) / 100f,
-                    Sicaklik = float.Parse(pots[6]) / 100f
+                    Yukseklik = float.Parse(pots[8]) / 100.0f,
+                    Sicaklik = float.Parse(pots[6]) / 100.0f,
+                    Manyetik_Alan = 1
                 };
 
                 Telemetri.Add(tele);
@@ -158,17 +159,23 @@ namespace turksatdeneme_6
                 this.chtPil.Series["Pil Gerilimi"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Pil_Gerilimi);
                 this.chtPtc.Series["Pitch"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Pitch);
                 this.chtRoll.Series["Roll"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Roll);
-                this.chtRPM.Series["RPM"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.RPM);
                 this.chtSck.Series["Sıcaklık"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Sicaklik);
                 this.chtYaw.Series["Yaw"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Yaw);
                 this.chtYks.Series["Yükseklik"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Yukseklik);
 
-               
-               
+                if (tele.Manyetik_Alan == 1)
+                {
+                    txtOtoAyr.Text = ("Otonom ayrılma gerçekleşmedi.");
+                }
+                else
+                {
+                    txtOtoAyr.Text = ("Otonom ayrılma gerçekleşti.");
+                }
+
 
             }
 
-
+           
 
         }
 
@@ -176,7 +183,9 @@ namespace turksatdeneme_6
 
         private void dataGridView1_DataSourceChanged(object sender, EventArgs e)
         {
-            txtStatu.Text = dataset[0].Statu;
+            txtRPM.Text = dataset[0].Manyetik_Alan.ToString();
+            txtGPS_Alt.Text = dataset[0].GPS_Alt.ToString();
+            txtStatu.Text = dataset[0].Uydu_Statusu;
             txtBsn.Text = dataset[0].Basinc.ToString();
             txtDns.Text = dataset[0].Donus_Sayisi.ToString();
             txtGnd.Text = dataset[0].Gonderme_Zamani.ToString();
@@ -186,7 +195,6 @@ namespace turksatdeneme_6
             txtPitch.Text = dataset[0].Pitch.ToString();
             txtPkt.Text = dataset[0].Paket_No.ToString();
             txtRoll.Text = dataset[0].Roll.ToString();
-            txtRPM.Text = dataset[0].RPM.ToString();
             txtSck.Text = dataset[0].Sicaklik.ToString();
             txtTkm.Text = dataset[0].Takim_No.ToString();
             txtYaw.Text = dataset[0].Yaw.ToString();
@@ -216,13 +224,21 @@ namespace turksatdeneme_6
                 txtVdGndDnt.Text = ("Gönderme başarısız.");
 
             }
+            if (dataset[0].Video_Aktarım_Bilgisi == 1)
+            {
+                txtVdKytKnt.Text = ("Video SD karta kaydedildi.");
+            }
+            else
+            {
+                txtVdKytKnt.Text = ("Video SD karta kaydedilemedi.");
+            }
 
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             var Tele = new List<Telemetri>(dataset);
-            ExportCsv(Tele, "Telemetri");
+            ExportCsv(Tele, "Telemetriess");
 
             Environment.Exit(0);
         }
@@ -262,6 +278,11 @@ namespace turksatdeneme_6
                 sw.Write(sb.ToString());
                 sw.Close();
             }
+        }
+
+        private void btnAyrıl_Click(object sender, EventArgs e)
+        {
+            serialPort1.Write("ayril");
         }
     }
 }

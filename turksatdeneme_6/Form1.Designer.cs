@@ -35,69 +35,72 @@ namespace turksatdeneme_6
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea34 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend34 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series34 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea35 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend35 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series35 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea36 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend36 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series36 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea37 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend37 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series37 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea38 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend38 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series38 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea39 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend39 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series39 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea40 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend40 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series40 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea41 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend41 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series41 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea42 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend42 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series42 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea43 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend43 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series43 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea44 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend44 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series44 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Sayfa1 = new System.Windows.Forms.TabPage();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.btnAyrıl = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.cmbPort = new System.Windows.Forms.ComboBox();
-            this.txtStatu = new System.Windows.Forms.TextBox();
-            this.lblstatu = new System.Windows.Forms.Label();
-            this.lblPort = new System.Windows.Forms.Label();
+            this.txtOtoAyr = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtVdGndDnt = new System.Windows.Forms.TextBox();
             this.btnVdGnd = new System.Windows.Forms.Button();
             this.rhctxtGirdi = new System.Windows.Forms.RichTextBox();
             this.txtVDGnd = new System.Windows.Forms.TextBox();
             this.chtYks = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chtRPM = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chtPil = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chtHiz = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chtBsn = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chtSck = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtGPS_Alt = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtStatu = new System.Windows.Forms.TextBox();
+            this.cmbPort = new System.Windows.Forms.ComboBox();
+            this.lblstatu = new System.Windows.Forms.Label();
             this.txtGPSlg = new System.Windows.Forms.TextBox();
+            this.lblPort = new System.Windows.Forms.Label();
             this.txtGPSlt = new System.Windows.Forms.TextBox();
             this.txtYaw = new System.Windows.Forms.TextBox();
             this.txtSck = new System.Windows.Forms.TextBox();
+            this.lblYaw = new System.Windows.Forms.Label();
             this.txtDns = new System.Windows.Forms.TextBox();
             this.lblSck = new System.Windows.Forms.Label();
-            this.lblYaw = new System.Windows.Forms.Label();
             this.lblGPSlt = new System.Windows.Forms.Label();
             this.lblGPSlg = new System.Windows.Forms.Label();
             this.lblDns = new System.Windows.Forms.Label();
@@ -142,12 +145,14 @@ namespace turksatdeneme_6
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.tmrRefresh = new System.Windows.Forms.Timer(this.components);
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.txtVdKytKnt = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.Sayfa1.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chtYks)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chtRPM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chtPil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chtHiz)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chtBsn)).BeginInit();
@@ -166,6 +171,7 @@ namespace turksatdeneme_6
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -183,10 +189,11 @@ namespace turksatdeneme_6
             // Sayfa1
             // 
             this.Sayfa1.BackColor = System.Drawing.Color.Navy;
+            this.Sayfa1.Controls.Add(this.pictureBox3);
+            this.Sayfa1.Controls.Add(this.groupBox5);
             this.Sayfa1.Controls.Add(this.groupBox4);
             this.Sayfa1.Controls.Add(this.groupBox3);
             this.Sayfa1.Controls.Add(this.chtYks);
-            this.Sayfa1.Controls.Add(this.chtRPM);
             this.Sayfa1.Controls.Add(this.chtPil);
             this.Sayfa1.Controls.Add(this.chtHiz);
             this.Sayfa1.Controls.Add(this.chtBsn);
@@ -202,58 +209,70 @@ namespace turksatdeneme_6
             this.Sayfa1.TabIndex = 0;
             this.Sayfa1.Text = " Sayfa1";
             // 
+            // groupBox5
+            // 
+            this.groupBox5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.groupBox5.Controls.Add(this.btnAyrıl);
+            this.groupBox5.Controls.Add(this.textBox2);
+            this.groupBox5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBox5.Location = new System.Drawing.Point(1001, 522);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(413, 100);
+            this.groupBox5.TabIndex = 37;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Manuel Ayrılma";
+            // 
+            // btnAyrıl
+            // 
+            this.btnAyrıl.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnAyrıl.Location = new System.Drawing.Point(142, 59);
+            this.btnAyrıl.Name = "btnAyrıl";
+            this.btnAyrıl.Size = new System.Drawing.Size(130, 35);
+            this.btnAyrıl.TabIndex = 1;
+            this.btnAyrıl.Text = "AYRIL";
+            this.btnAyrıl.UseVisualStyleBackColor = false;
+            this.btnAyrıl.Click += new System.EventHandler(this.btnAyrıl_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(33, 31);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(346, 22);
+            this.textBox2.TabIndex = 0;
+            this.textBox2.Text = "Manuel ayrılmayı onaylıyor musunuz?";
+            // 
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox4.Controls.Add(this.cmbPort);
-            this.groupBox4.Controls.Add(this.txtStatu);
-            this.groupBox4.Controls.Add(this.lblstatu);
-            this.groupBox4.Controls.Add(this.lblPort);
-            this.groupBox4.Location = new System.Drawing.Point(149, 6);
+            this.groupBox4.Controls.Add(this.txtOtoAyr);
+            this.groupBox4.Controls.Add(this.textBox1);
+            this.groupBox4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBox4.Location = new System.Drawing.Point(1001, 387);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(289, 128);
+            this.groupBox4.Size = new System.Drawing.Size(413, 106);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "groupBox4";
+            this.groupBox4.Text = "Otonom Ayrılma";
             // 
-            // cmbPort
+            // txtOtoAyr
             // 
-            this.cmbPort.FormattingEnabled = true;
-            this.cmbPort.Location = new System.Drawing.Point(99, 26);
-            this.cmbPort.Name = "cmbPort";
-            this.cmbPort.Size = new System.Drawing.Size(154, 24);
-            this.cmbPort.TabIndex = 4;
+            this.txtOtoAyr.Location = new System.Drawing.Point(92, 64);
+            this.txtOtoAyr.Name = "txtOtoAyr";
+            this.txtOtoAyr.Size = new System.Drawing.Size(228, 22);
+            this.txtOtoAyr.TabIndex = 1;
             // 
-            // txtStatu
+            // textBox1
             // 
-            this.txtStatu.Location = new System.Drawing.Point(99, 91);
-            this.txtStatu.Name = "txtStatu";
-            this.txtStatu.Size = new System.Drawing.Size(154, 22);
-            this.txtStatu.TabIndex = 3;
-            // 
-            // lblstatu
-            // 
-            this.lblstatu.AutoSize = true;
-            this.lblstatu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblstatu.Location = new System.Drawing.Point(32, 96);
-            this.lblstatu.Name = "lblstatu";
-            this.lblstatu.Size = new System.Drawing.Size(49, 17);
-            this.lblstatu.TabIndex = 1;
-            this.lblstatu.Text = "Statü :";
-            // 
-            // lblPort
-            // 
-            this.lblPort.AutoSize = true;
-            this.lblPort.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblPort.Location = new System.Drawing.Point(35, 26);
-            this.lblPort.Name = "lblPort";
-            this.lblPort.Size = new System.Drawing.Size(42, 17);
-            this.lblPort.TabIndex = 0;
-            this.lblPort.Text = "Port :";
+            this.textBox1.Location = new System.Drawing.Point(33, 36);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(346, 22);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "Otonom ayrılma durumu :";
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.SystemColors.Desktop;
+            this.groupBox3.Controls.Add(this.txtVdKytKnt);
             this.groupBox3.Controls.Add(this.txtVdGndDnt);
             this.groupBox3.Controls.Add(this.btnVdGnd);
             this.groupBox3.Controls.Add(this.rhctxtGirdi);
@@ -302,108 +321,90 @@ namespace turksatdeneme_6
             // 
             // chtYks
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chtYks.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chtYks.Legends.Add(legend1);
-            this.chtYks.Location = new System.Drawing.Point(1009, 637);
+            chartArea34.Name = "ChartArea1";
+            this.chtYks.ChartAreas.Add(chartArea34);
+            legend34.Name = "Legend1";
+            this.chtYks.Legends.Add(legend34);
+            this.chtYks.Location = new System.Drawing.Point(1010, 648);
             this.chtYks.Name = "chtYks";
             this.chtYks.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SemiTransparent;
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Legend = "Legend1";
-            series1.Name = "Yükseklik";
-            this.chtYks.Series.Add(series1);
+            series34.ChartArea = "ChartArea1";
+            series34.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series34.Legend = "Legend1";
+            series34.Name = "Yükseklik";
+            this.chtYks.Series.Add(series34);
             this.chtYks.Size = new System.Drawing.Size(453, 242);
             this.chtYks.TabIndex = 30;
             this.chtYks.Text = "chart1";
             // 
-            // chtRPM
-            // 
-            chartArea2.Name = "ChartArea1";
-            this.chtRPM.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chtRPM.Legends.Add(legend2);
-            this.chtRPM.Location = new System.Drawing.Point(1009, 360);
-            this.chtRPM.Name = "chtRPM";
-            this.chtRPM.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Legend = "Legend1";
-            series2.Name = "RPM";
-            this.chtRPM.Series.Add(series2);
-            this.chtRPM.Size = new System.Drawing.Size(453, 242);
-            this.chtRPM.TabIndex = 31;
-            this.chtRPM.Text = "chart2";
-            // 
             // chtPil
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chtPil.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chtPil.Legends.Add(legend3);
-            this.chtPil.Location = new System.Drawing.Point(530, 637);
+            chartArea35.Name = "ChartArea1";
+            this.chtPil.ChartAreas.Add(chartArea35);
+            legend35.Name = "Legend1";
+            this.chtPil.Legends.Add(legend35);
+            this.chtPil.Location = new System.Drawing.Point(530, 648);
             this.chtPil.Name = "chtPil";
             this.chtPil.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series3.Legend = "Legend1";
-            series3.Name = "Pil Gerilimi";
-            this.chtPil.Series.Add(series3);
+            series35.ChartArea = "ChartArea1";
+            series35.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series35.Legend = "Legend1";
+            series35.Name = "Pil Gerilimi";
+            this.chtPil.Series.Add(series35);
             this.chtPil.Size = new System.Drawing.Size(453, 242);
             this.chtPil.TabIndex = 32;
             this.chtPil.Text = "chart3";
             // 
             // chtHiz
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chtHiz.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chtHiz.Legends.Add(legend4);
-            this.chtHiz.Location = new System.Drawing.Point(530, 360);
+            chartArea36.Name = "ChartArea1";
+            this.chtHiz.ChartAreas.Add(chartArea36);
+            legend36.Name = "Legend1";
+            this.chtHiz.Legends.Add(legend36);
+            this.chtHiz.Location = new System.Drawing.Point(530, 378);
             this.chtHiz.Name = "chtHiz";
             this.chtHiz.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series4.Legend = "Legend1";
-            series4.Name = "İniş Hızı";
-            this.chtHiz.Series.Add(series4);
+            series36.ChartArea = "ChartArea1";
+            series36.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series36.Legend = "Legend1";
+            series36.Name = "İniş Hızı";
+            this.chtHiz.Series.Add(series36);
             this.chtHiz.Size = new System.Drawing.Size(453, 242);
             this.chtHiz.TabIndex = 33;
             this.chtHiz.Text = "chart4";
             // 
             // chtBsn
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chtBsn.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chtBsn.Legends.Add(legend5);
-            this.chtBsn.Location = new System.Drawing.Point(45, 637);
+            chartArea37.Name = "ChartArea1";
+            this.chtBsn.ChartAreas.Add(chartArea37);
+            legend37.Name = "Legend1";
+            this.chtBsn.Legends.Add(legend37);
+            this.chtBsn.Location = new System.Drawing.Point(45, 648);
             this.chtBsn.Name = "chtBsn";
             this.chtBsn.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series5.Legend = "Legend1";
-            series5.Name = "Basınç";
-            this.chtBsn.Series.Add(series5);
+            series37.ChartArea = "ChartArea1";
+            series37.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series37.Legend = "Legend1";
+            series37.Name = "Basınç";
+            this.chtBsn.Series.Add(series37);
             this.chtBsn.Size = new System.Drawing.Size(453, 242);
             this.chtBsn.TabIndex = 34;
             this.chtBsn.Text = "chart5";
             // 
             // chtSck
             // 
-            chartArea6.Name = "ChartArea1";
-            this.chtSck.ChartAreas.Add(chartArea6);
-            legend6.Name = "Legend1";
-            this.chtSck.Legends.Add(legend6);
-            this.chtSck.Location = new System.Drawing.Point(45, 360);
+            chartArea38.Name = "ChartArea1";
+            this.chtSck.ChartAreas.Add(chartArea38);
+            legend38.Name = "Legend1";
+            this.chtSck.Legends.Add(legend38);
+            this.chtSck.Location = new System.Drawing.Point(45, 378);
             this.chtSck.Name = "chtSck";
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series6.Legend = "Legend1";
-            series6.Name = "Sıcaklık";
-            series6.YValuesPerPoint = 2;
-            this.chtSck.Series.Add(series6);
+            series38.ChartArea = "ChartArea1";
+            series38.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series38.Legend = "Legend1";
+            series38.Name = "Sıcaklık";
+            series38.YValuesPerPoint = 2;
+            this.chtSck.Series.Add(series38);
             this.chtSck.Size = new System.Drawing.Size(453, 242);
             this.chtSck.TabIndex = 35;
             this.chtSck.Text = "chart6";
@@ -411,13 +412,19 @@ namespace turksatdeneme_6
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.groupBox2.Controls.Add(this.txtGPS_Alt);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.txtStatu);
+            this.groupBox2.Controls.Add(this.cmbPort);
+            this.groupBox2.Controls.Add(this.lblstatu);
             this.groupBox2.Controls.Add(this.txtGPSlg);
+            this.groupBox2.Controls.Add(this.lblPort);
             this.groupBox2.Controls.Add(this.txtGPSlt);
             this.groupBox2.Controls.Add(this.txtYaw);
             this.groupBox2.Controls.Add(this.txtSck);
+            this.groupBox2.Controls.Add(this.lblYaw);
             this.groupBox2.Controls.Add(this.txtDns);
             this.groupBox2.Controls.Add(this.lblSck);
-            this.groupBox2.Controls.Add(this.lblYaw);
             this.groupBox2.Controls.Add(this.lblGPSlt);
             this.groupBox2.Controls.Add(this.lblGPSlg);
             this.groupBox2.Controls.Add(this.lblDns);
@@ -442,12 +449,53 @@ namespace turksatdeneme_6
             this.groupBox2.Controls.Add(this.txtPkt);
             this.groupBox2.Controls.Add(this.lblPkt);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox2.Location = new System.Drawing.Point(444, 5);
+            this.groupBox2.Location = new System.Drawing.Point(503, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(941, 327);
+            this.groupBox2.Size = new System.Drawing.Size(911, 367);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "GüncelTelemetriPaketi";
+            // 
+            // txtGPS_Alt
+            // 
+            this.txtGPS_Alt.Location = new System.Drawing.Point(741, 216);
+            this.txtGPS_Alt.Name = "txtGPS_Alt";
+            this.txtGPS_Alt.Size = new System.Drawing.Size(136, 22);
+            this.txtGPS_Alt.TabIndex = 31;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(661, 219);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 17);
+            this.label1.TabIndex = 30;
+            this.label1.Text = "GPS Alt :";
+            // 
+            // txtStatu
+            // 
+            this.txtStatu.Location = new System.Drawing.Point(443, 331);
+            this.txtStatu.Name = "txtStatu";
+            this.txtStatu.Size = new System.Drawing.Size(136, 22);
+            this.txtStatu.TabIndex = 3;
+            // 
+            // cmbPort
+            // 
+            this.cmbPort.FormattingEnabled = true;
+            this.cmbPort.Location = new System.Drawing.Point(169, 328);
+            this.cmbPort.Name = "cmbPort";
+            this.cmbPort.Size = new System.Drawing.Size(136, 24);
+            this.cmbPort.TabIndex = 4;
+            // 
+            // lblstatu
+            // 
+            this.lblstatu.AutoSize = true;
+            this.lblstatu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblstatu.Location = new System.Drawing.Point(336, 333);
+            this.lblstatu.Name = "lblstatu";
+            this.lblstatu.Size = new System.Drawing.Size(101, 17);
+            this.lblstatu.TabIndex = 1;
+            this.lblstatu.Text = "Uydu Statüsü :";
             // 
             // txtGPSlg
             // 
@@ -455,6 +503,16 @@ namespace turksatdeneme_6
             this.txtGPSlg.Name = "txtGPSlg";
             this.txtGPSlg.Size = new System.Drawing.Size(136, 22);
             this.txtGPSlg.TabIndex = 29;
+            // 
+            // lblPort
+            // 
+            this.lblPort.AutoSize = true;
+            this.lblPort.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblPort.Location = new System.Drawing.Point(121, 331);
+            this.lblPort.Name = "lblPort";
+            this.lblPort.Size = new System.Drawing.Size(42, 17);
+            this.lblPort.TabIndex = 0;
+            this.lblPort.Text = "Port :";
             // 
             // txtGPSlt
             // 
@@ -465,7 +523,7 @@ namespace turksatdeneme_6
             // 
             // txtYaw
             // 
-            this.txtYaw.Location = new System.Drawing.Point(741, 216);
+            this.txtYaw.Location = new System.Drawing.Point(741, 328);
             this.txtYaw.Name = "txtYaw";
             this.txtYaw.Size = new System.Drawing.Size(136, 22);
             this.txtYaw.TabIndex = 27;
@@ -476,6 +534,15 @@ namespace turksatdeneme_6
             this.txtSck.Name = "txtSck";
             this.txtSck.Size = new System.Drawing.Size(136, 22);
             this.txtSck.TabIndex = 26;
+            // 
+            // lblYaw
+            // 
+            this.lblYaw.AutoSize = true;
+            this.lblYaw.Location = new System.Drawing.Point(673, 331);
+            this.lblYaw.Name = "lblYaw";
+            this.lblYaw.Size = new System.Drawing.Size(42, 17);
+            this.lblYaw.TabIndex = 23;
+            this.lblYaw.Text = "Yaw :";
             // 
             // txtDns
             // 
@@ -492,15 +559,6 @@ namespace turksatdeneme_6
             this.lblSck.Size = new System.Drawing.Size(63, 17);
             this.lblSck.TabIndex = 24;
             this.lblSck.Text = "Sıcaklık :";
-            // 
-            // lblYaw
-            // 
-            this.lblYaw.AutoSize = true;
-            this.lblYaw.Location = new System.Drawing.Point(684, 219);
-            this.lblYaw.Name = "lblYaw";
-            this.lblYaw.Size = new System.Drawing.Size(42, 17);
-            this.lblYaw.TabIndex = 23;
-            this.lblYaw.Text = "Yaw :";
             // 
             // lblGPSlt
             // 
@@ -567,7 +625,7 @@ namespace turksatdeneme_6
             // lblPtch
             // 
             this.lblPtch.AutoSize = true;
-            this.lblPtch.Location = new System.Drawing.Point(379, 277);
+            this.lblPtch.Location = new System.Drawing.Point(390, 279);
             this.lblPtch.Name = "lblPtch";
             this.lblPtch.Size = new System.Drawing.Size(47, 17);
             this.lblPtch.TabIndex = 14;
@@ -576,7 +634,7 @@ namespace turksatdeneme_6
             // lblRoll
             // 
             this.lblRoll.AutoSize = true;
-            this.lblRoll.Location = new System.Drawing.Point(386, 219);
+            this.lblRoll.Location = new System.Drawing.Point(397, 219);
             this.lblRoll.Name = "lblRoll";
             this.lblRoll.Size = new System.Drawing.Size(40, 17);
             this.lblRoll.TabIndex = 13;
@@ -585,16 +643,16 @@ namespace turksatdeneme_6
             // lblRPM
             // 
             this.lblRPM.AutoSize = true;
-            this.lblRPM.Location = new System.Drawing.Point(380, 160);
+            this.lblRPM.Location = new System.Drawing.Point(337, 160);
             this.lblRPM.Name = "lblRPM";
-            this.lblRPM.Size = new System.Drawing.Size(46, 17);
+            this.lblRPM.Size = new System.Drawing.Size(100, 17);
             this.lblRPM.TabIndex = 12;
-            this.lblRPM.Text = "RPM :";
+            this.lblRPM.Text = "Manyetik Alan:";
             // 
             // lblHiz
             // 
             this.lblHiz.AutoSize = true;
-            this.lblHiz.Location = new System.Drawing.Point(362, 104);
+            this.lblHiz.Location = new System.Drawing.Point(373, 104);
             this.lblHiz.Name = "lblHiz";
             this.lblHiz.Size = new System.Drawing.Size(64, 17);
             this.lblHiz.TabIndex = 11;
@@ -794,108 +852,108 @@ namespace turksatdeneme_6
             // 
             // chtYaw
             // 
-            chartArea7.Name = "ChartArea1";
-            this.chtYaw.ChartAreas.Add(chartArea7);
-            legend7.Name = "Legend1";
-            this.chtYaw.Legends.Add(legend7);
+            chartArea39.Name = "ChartArea1";
+            this.chtYaw.ChartAreas.Add(chartArea39);
+            legend39.Name = "Legend1";
+            this.chtYaw.Legends.Add(legend39);
             this.chtYaw.Location = new System.Drawing.Point(1197, 338);
             this.chtYaw.Name = "chtYaw";
             this.chtYaw.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series7.Legend = "Legend1";
-            series7.Name = "Yaw";
-            this.chtYaw.Series.Add(series7);
+            series39.ChartArea = "ChartArea1";
+            series39.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series39.Legend = "Legend1";
+            series39.Name = "Yaw";
+            this.chtYaw.Series.Add(series39);
             this.chtYaw.Size = new System.Drawing.Size(488, 245);
             this.chtYaw.TabIndex = 9;
             this.chtYaw.Text = "chart6";
             // 
             // chtGPSLg
             // 
-            chartArea8.Name = "ChartArea1";
-            this.chtGPSLg.ChartAreas.Add(chartArea8);
-            legend8.Name = "Legend1";
-            this.chtGPSLg.Legends.Add(legend8);
+            chartArea40.Name = "ChartArea1";
+            this.chtGPSLg.ChartAreas.Add(chartArea40);
+            legend40.Name = "Legend1";
+            this.chtGPSLg.Legends.Add(legend40);
             this.chtGPSLg.Location = new System.Drawing.Point(24, 338);
             this.chtGPSLg.Name = "chtGPSLg";
             this.chtGPSLg.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Polar;
-            series8.Legend = "Legend1";
-            series8.Name = "GPS Long";
-            this.chtGPSLg.Series.Add(series8);
+            series40.ChartArea = "ChartArea1";
+            series40.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Polar;
+            series40.Legend = "Legend1";
+            series40.Name = "GPS Long";
+            this.chtGPSLg.Series.Add(series40);
             this.chtGPSLg.Size = new System.Drawing.Size(488, 245);
             this.chtGPSLg.TabIndex = 8;
             this.chtGPSLg.Text = "chart5";
             // 
             // chtPtc
             // 
-            chartArea9.Name = "ChartArea1";
-            this.chtPtc.ChartAreas.Add(chartArea9);
-            legend9.Name = "Legend1";
-            this.chtPtc.Legends.Add(legend9);
+            chartArea41.Name = "ChartArea1";
+            this.chtPtc.ChartAreas.Add(chartArea41);
+            legend41.Name = "Legend1";
+            this.chtPtc.Legends.Add(legend41);
             this.chtPtc.Location = new System.Drawing.Point(606, 338);
             this.chtPtc.Name = "chtPtc";
             this.chtPtc.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
-            series9.ChartArea = "ChartArea1";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series9.Legend = "Legend1";
-            series9.Name = "Pitch";
-            this.chtPtc.Series.Add(series9);
+            series41.ChartArea = "ChartArea1";
+            series41.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series41.Legend = "Legend1";
+            series41.Name = "Pitch";
+            this.chtPtc.Series.Add(series41);
             this.chtPtc.Size = new System.Drawing.Size(488, 245);
             this.chtPtc.TabIndex = 7;
             this.chtPtc.Text = "chart4";
             // 
             // chtGPSLt
             // 
-            chartArea10.Name = "ChartArea1";
-            this.chtGPSLt.ChartAreas.Add(chartArea10);
-            legend10.Name = "Legend1";
-            this.chtGPSLt.Legends.Add(legend10);
+            chartArea42.Name = "ChartArea1";
+            this.chtGPSLt.ChartAreas.Add(chartArea42);
+            legend42.Name = "Legend1";
+            this.chtGPSLt.Legends.Add(legend42);
             this.chtGPSLt.Location = new System.Drawing.Point(24, 625);
             this.chtGPSLt.Name = "chtGPSLt";
             this.chtGPSLt.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series10.ChartArea = "ChartArea1";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Polar;
-            series10.Legend = "Legend1";
-            series10.Name = "GPS Lat";
-            this.chtGPSLt.Series.Add(series10);
+            series42.ChartArea = "ChartArea1";
+            series42.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Polar;
+            series42.Legend = "Legend1";
+            series42.Name = "GPS Lat";
+            this.chtGPSLt.Series.Add(series42);
             this.chtGPSLt.Size = new System.Drawing.Size(488, 245);
             this.chtGPSLt.TabIndex = 6;
             this.chtGPSLt.Text = "chart3";
             // 
             // chtRoll
             // 
-            chartArea11.Name = "ChartArea1";
-            this.chtRoll.ChartAreas.Add(chartArea11);
-            legend11.Name = "Legend1";
-            this.chtRoll.Legends.Add(legend11);
+            chartArea43.Name = "ChartArea1";
+            this.chtRoll.ChartAreas.Add(chartArea43);
+            legend43.Name = "Legend1";
+            this.chtRoll.Legends.Add(legend43);
             this.chtRoll.Location = new System.Drawing.Point(606, 625);
             this.chtRoll.Name = "chtRoll";
             this.chtRoll.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
-            series11.ChartArea = "ChartArea1";
-            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series11.Legend = "Legend1";
-            series11.Name = "Roll";
-            this.chtRoll.Series.Add(series11);
+            series43.ChartArea = "ChartArea1";
+            series43.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series43.Legend = "Legend1";
+            series43.Name = "Roll";
+            this.chtRoll.Series.Add(series43);
             this.chtRoll.Size = new System.Drawing.Size(488, 245);
             this.chtRoll.TabIndex = 5;
             this.chtRoll.Text = "chart2";
             // 
             // chtDns
             // 
-            chartArea12.Name = "ChartArea1";
-            this.chtDns.ChartAreas.Add(chartArea12);
-            legend12.Name = "Legend1";
-            this.chtDns.Legends.Add(legend12);
+            chartArea44.Name = "ChartArea1";
+            this.chtDns.ChartAreas.Add(chartArea44);
+            legend44.Name = "Legend1";
+            this.chtDns.Legends.Add(legend44);
             this.chtDns.Location = new System.Drawing.Point(1197, 625);
             this.chtDns.Name = "chtDns";
             this.chtDns.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
-            series12.ChartArea = "ChartArea1";
-            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series12.Legend = "Legend1";
-            series12.Name = "Dönüş Sayısı";
-            this.chtDns.Series.Add(series12);
+            series44.ChartArea = "ChartArea1";
+            series44.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series44.Legend = "Legend1";
+            series44.Name = "Dönüş Sayısı";
+            this.chtDns.Series.Add(series44);
             this.chtDns.Size = new System.Drawing.Size(488, 245);
             this.chtDns.TabIndex = 4;
             this.chtDns.Text = "A";
@@ -982,7 +1040,25 @@ namespace turksatdeneme_6
             // 
             // serialPort1
             // 
+            this.serialPort1.BaudRate = 230400;
             this.serialPort1.PortName = "COM7";
+            // 
+            // txtVdKytKnt
+            // 
+            this.txtVdKytKnt.Location = new System.Drawing.Point(19, 328);
+            this.txtVdKytKnt.Name = "txtVdKytKnt";
+            this.txtVdKytKnt.Size = new System.Drawing.Size(360, 22);
+            this.txtVdKytKnt.TabIndex = 4;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(149, 6);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(349, 236);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 38;
+            this.pictureBox3.TabStop = false;
             // 
             // Form1
             // 
@@ -999,12 +1075,13 @@ namespace turksatdeneme_6
             this.Load += new System.EventHandler(this.Form1_Load_1);
             this.tabControl1.ResumeLayout(false);
             this.Sayfa1.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chtYks)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chtRPM)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chtPil)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chtHiz)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chtBsn)).EndInit();
@@ -1024,6 +1101,7 @@ namespace turksatdeneme_6
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1076,7 +1154,6 @@ namespace turksatdeneme_6
         private System.Windows.Forms.Label lblBsn;
         private System.Windows.Forms.Label lblPil;
         private System.Windows.Forms.DataVisualization.Charting.Chart chtYks;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chtRPM;
         private System.Windows.Forms.DataVisualization.Charting.Chart chtPil;
         private System.Windows.Forms.DataVisualization.Charting.Chart chtHiz;
         private System.Windows.Forms.DataVisualization.Charting.Chart chtBsn;
@@ -1101,6 +1178,15 @@ namespace turksatdeneme_6
         private System.Windows.Forms.Label lblstatu;
         private System.Windows.Forms.Label lblPort;
         private System.Windows.Forms.ComboBox cmbPort;
+        private System.Windows.Forms.TextBox txtGPS_Alt;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtOtoAyr;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Button btnAyrıl;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtVdKytKnt;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 

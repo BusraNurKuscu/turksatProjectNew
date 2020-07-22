@@ -16,22 +16,24 @@ namespace turksatdeneme_6
         public static object Port1 { get; internal set; }
 
         //Litedb ile database de tutulacak verileri bu envertere ekliyoruz.
-        public int Paket_No { get; set; } //0
-        public DateTime Gonderme_Zamani { get; set; } //1
-        public float Basinc { get; set; } //2
-        public float Yukseklik{ get; set; } //3
-        public float Inis_Hizi { get; set; }//4
-        public float Sicaklik { get; set; }//5
-        public float Pil_Gerilimi { get; set; }//6
-        public float RPM { get; set; }//7
-        public float GPS_Long { get; set; }//8
-        public float GPS_Lat { get; set; }//9
-        public float Pitch { get; set; }//10
-        public float Roll { get; set; }//11
-        public float Yaw { get; set; }//12
-        public float Donus_Sayisi { get; set; }//13
-        public int Takim_No { get; set; }//14
-        public string Statu { get; set; }//15
+        public int Takim_No { get; set; }//0
+        public int Paket_No { get; set; } //1
+        public DateTime Gonderme_Zamani { get; set; } //2
+        public float Basinc { get; set; } //3
+        public float Yukseklik { get; set; } //4
+        public float Inis_Hizi { get; set; }//5
+        public float Sicaklik { get; set; }//6
+        public float Pil_Gerilimi { get; set; }//7
+        public float GPS_Lat { get; set; }//8
+        public float GPS_Long { get; set; }//9
+        public float GPS_Alt { get; set; }//10
+        public string Uydu_Statusu { get; set; }//11
+        public float Pitch { get; set; }//12
+        public float Roll { get; set; }//13
+        public float Yaw { get; set; }//14
+        public float Donus_Sayisi { get; set; }//15
+        public float Video_Aktarım_Bilgisi { get; set; }//16
+        public float Manyetik_Alan { get; set; }//17
 
         public static void Add(Telemetri telemetri)//ekle fonksiyonu oluşturarak datalarımızı value olarak ekliyoruz.
         {
@@ -39,7 +41,7 @@ namespace turksatdeneme_6
             telemetries.Insert(telemetri);
         }
 
-        public static List<Telemetri> GetAll()//tümünüü listele fonksiyonu oluşturarak verilerin hepsini okuyop listeliyoruz.
+        public static List<Telemetri> GetAll()//tümünü listele fonksiyonu oluşturarak verilerin hepsini okuyop listeliyoruz.
         {
             return db.GetCollection<Telemetri>().FindAll().OrderByDescending(t=>t.Gonderme_Zamani).ToList();
          }
