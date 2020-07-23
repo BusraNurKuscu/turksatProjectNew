@@ -35,6 +35,7 @@ namespace turksatdeneme_6
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea34 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend34 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series34 = new System.Windows.Forms.DataVisualization.Charting.Series();
@@ -68,9 +69,12 @@ namespace turksatdeneme_6
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea44 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend44 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series44 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Sayfa1 = new System.Windows.Forms.TabPage();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.btnAyrıl = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -78,6 +82,7 @@ namespace turksatdeneme_6
             this.txtOtoAyr = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txtVdKytKnt = new System.Windows.Forms.TextBox();
             this.txtVdGndDnt = new System.Windows.Forms.TextBox();
             this.btnVdGnd = new System.Windows.Forms.Button();
             this.rhctxtGirdi = new System.Windows.Forms.RichTextBox();
@@ -145,10 +150,11 @@ namespace turksatdeneme_6
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.tmrRefresh = new System.Windows.Forms.Timer(this.components);
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
-            this.txtVdKytKnt = new System.Windows.Forms.TextBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tabControl1.SuspendLayout();
             this.Sayfa1.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -171,7 +177,6 @@ namespace turksatdeneme_6
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -189,6 +194,7 @@ namespace turksatdeneme_6
             // Sayfa1
             // 
             this.Sayfa1.BackColor = System.Drawing.Color.Navy;
+            this.Sayfa1.Controls.Add(this.groupBox6);
             this.Sayfa1.Controls.Add(this.pictureBox3);
             this.Sayfa1.Controls.Add(this.groupBox5);
             this.Sayfa1.Controls.Add(this.groupBox4);
@@ -209,15 +215,56 @@ namespace turksatdeneme_6
             this.Sayfa1.TabIndex = 0;
             this.Sayfa1.Text = " Sayfa1";
             // 
+            // groupBox6
+            // 
+            this.groupBox6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.groupBox6.Controls.Add(this.button1);
+            this.groupBox6.Controls.Add(this.textBox3);
+            this.groupBox6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBox6.Location = new System.Drawing.Point(45, 259);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(452, 111);
+            this.groupBox6.TabIndex = 39;
+            this.groupBox6.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.button1.Location = new System.Drawing.Point(141, 58);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(146, 36);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Motor On";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(46, 30);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(356, 22);
+            this.textBox3.TabIndex = 0;
+            this.textBox3.Text = "Motoru manuel olarak çalıştırın.";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(149, 6);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(349, 236);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 38;
+            this.pictureBox3.TabStop = false;
+            // 
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.groupBox5.Controls.Add(this.btnAyrıl);
             this.groupBox5.Controls.Add(this.textBox2);
             this.groupBox5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox5.Location = new System.Drawing.Point(1001, 522);
+            this.groupBox5.Location = new System.Drawing.Point(1010, 520);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(413, 100);
+            this.groupBox5.Size = new System.Drawing.Size(431, 100);
             this.groupBox5.TabIndex = 37;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Manuel Ayrılma";
@@ -225,7 +272,7 @@ namespace turksatdeneme_6
             // btnAyrıl
             // 
             this.btnAyrıl.BackColor = System.Drawing.Color.MidnightBlue;
-            this.btnAyrıl.Location = new System.Drawing.Point(142, 59);
+            this.btnAyrıl.Location = new System.Drawing.Point(132, 59);
             this.btnAyrıl.Name = "btnAyrıl";
             this.btnAyrıl.Size = new System.Drawing.Size(130, 35);
             this.btnAyrıl.TabIndex = 1;
@@ -235,7 +282,7 @@ namespace turksatdeneme_6
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(33, 31);
+            this.textBox2.Location = new System.Drawing.Point(42, 31);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(346, 22);
             this.textBox2.TabIndex = 0;
@@ -247,23 +294,23 @@ namespace turksatdeneme_6
             this.groupBox4.Controls.Add(this.txtOtoAyr);
             this.groupBox4.Controls.Add(this.textBox1);
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox4.Location = new System.Drawing.Point(1001, 387);
+            this.groupBox4.Location = new System.Drawing.Point(1010, 378);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(413, 106);
+            this.groupBox4.Size = new System.Drawing.Size(431, 106);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Otonom Ayrılma";
             // 
             // txtOtoAyr
             // 
-            this.txtOtoAyr.Location = new System.Drawing.Point(92, 64);
+            this.txtOtoAyr.Location = new System.Drawing.Point(97, 65);
             this.txtOtoAyr.Name = "txtOtoAyr";
             this.txtOtoAyr.Size = new System.Drawing.Size(228, 22);
             this.txtOtoAyr.TabIndex = 1;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(33, 36);
+            this.textBox1.Location = new System.Drawing.Point(42, 36);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(346, 22);
             this.textBox1.TabIndex = 0;
@@ -284,6 +331,13 @@ namespace turksatdeneme_6
             this.groupBox3.TabIndex = 36;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "VideoGönderme";
+            // 
+            // txtVdKytKnt
+            // 
+            this.txtVdKytKnt.Location = new System.Drawing.Point(19, 328);
+            this.txtVdKytKnt.Name = "txtVdKytKnt";
+            this.txtVdKytKnt.Size = new System.Drawing.Size(360, 22);
+            this.txtVdKytKnt.TabIndex = 4;
             // 
             // txtVdGndDnt
             // 
@@ -385,7 +439,7 @@ namespace turksatdeneme_6
             series37.ChartArea = "ChartArea1";
             series37.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series37.Legend = "Legend1";
-            series37.Name = "Basınç";
+            series37.Name = "Basınç hPa";
             this.chtBsn.Series.Add(series37);
             this.chtBsn.Size = new System.Drawing.Size(453, 242);
             this.chtBsn.TabIndex = 34;
@@ -449,7 +503,7 @@ namespace turksatdeneme_6
             this.groupBox2.Controls.Add(this.txtPkt);
             this.groupBox2.Controls.Add(this.lblPkt);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox2.Location = new System.Drawing.Point(503, 6);
+            this.groupBox2.Location = new System.Drawing.Point(530, 3);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(911, 367);
             this.groupBox2.TabIndex = 1;
@@ -779,10 +833,10 @@ namespace turksatdeneme_6
             // btnCek
             // 
             this.btnCek.BackColor = System.Drawing.Color.Navy;
-            this.btnCek.Location = new System.Drawing.Point(149, 372);
+            this.btnCek.Location = new System.Drawing.Point(142, 372);
             this.btnCek.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCek.Name = "btnCek";
-            this.btnCek.Size = new System.Drawing.Size(95, 39);
+            this.btnCek.Size = new System.Drawing.Size(102, 39);
             this.btnCek.TabIndex = 1;
             this.btnCek.Text = "Fotograf cek";
             this.btnCek.UseVisualStyleBackColor = false;
@@ -1040,25 +1094,7 @@ namespace turksatdeneme_6
             // 
             // serialPort1
             // 
-            this.serialPort1.BaudRate = 230400;
             this.serialPort1.PortName = "COM7";
-            // 
-            // txtVdKytKnt
-            // 
-            this.txtVdKytKnt.Location = new System.Drawing.Point(19, 328);
-            this.txtVdKytKnt.Name = "txtVdKytKnt";
-            this.txtVdKytKnt.Size = new System.Drawing.Size(360, 22);
-            this.txtVdKytKnt.TabIndex = 4;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(149, 6);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(349, 236);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 38;
-            this.pictureBox3.TabStop = false;
             // 
             // Form1
             // 
@@ -1075,6 +1111,9 @@ namespace turksatdeneme_6
             this.Load += new System.EventHandler(this.Form1_Load_1);
             this.tabControl1.ResumeLayout(false);
             this.Sayfa1.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox4.ResumeLayout(false);
@@ -1101,7 +1140,6 @@ namespace turksatdeneme_6
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1187,6 +1225,10 @@ namespace turksatdeneme_6
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox txtVdKytKnt;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox3;
+        private BackgroundWorker backgroundWorker1;
     }
 }
 

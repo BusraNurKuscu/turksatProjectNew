@@ -145,13 +145,15 @@ namespace turksatdeneme_6
                     Yaw = float.Parse(pots[5]) / 100f,
                     Yukseklik = float.Parse(pots[8]) / 100.0f,
                     Sicaklik = float.Parse(pots[6]) / 100.0f,
-                    Manyetik_Alan = 1
+                    Manyetik_Alan = 1,
+                    Pil_Gerilimi2 = 4,
+                    Video_Aktarım_Bilgisi = 1
                 };
 
                 Telemetri.Add(tele);
                 dataGridView1.DataSource = dataset = Telemetri.GetAll();
 
-                this.chtBsn.Series["Basınç"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Basinc);
+                this.chtBsn.Series["Basınç hPa"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Basinc);
                 this.chtDns.Series["Dönüş Sayısı"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Donus_Sayisi);
                 this.chtGPSLg.Series["GPS Long"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.GPS_Long);
                 this.chtGPSLt.Series["GPS Lat"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.GPS_Lat);
@@ -161,7 +163,7 @@ namespace turksatdeneme_6
                 this.chtRoll.Series["Roll"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Roll);
                 this.chtSck.Series["Sıcaklık"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Sicaklik);
                 this.chtYaw.Series["Yaw"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Yaw);
-                this.chtYks.Series["Yükseklik"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Yukseklik);
+                this.chtYks.Series["Yükseklik m"].Points.AddXY(tele.Gonderme_Zamani.ToString(), tele.Yukseklik);
 
                 if (tele.Manyetik_Alan == 1)
                 {
@@ -284,5 +286,12 @@ namespace turksatdeneme_6
         {
             serialPort1.Write("ayril");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            serialPort1.Write("julide");
+        }
+
+       
     }
 }

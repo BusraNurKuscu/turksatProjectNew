@@ -23,17 +23,18 @@ namespace turksatdeneme_6
         public float Yukseklik { get; set; } //4
         public float Inis_Hizi { get; set; }//5
         public float Sicaklik { get; set; }//6
-        public float Pil_Gerilimi { get; set; }//7
-        public float GPS_Lat { get; set; }//8
-        public float GPS_Long { get; set; }//9
-        public float GPS_Alt { get; set; }//10
-        public string Uydu_Statusu { get; set; }//11
-        public float Pitch { get; set; }//12
-        public float Roll { get; set; }//13
-        public float Yaw { get; set; }//14
-        public float Donus_Sayisi { get; set; }//15
-        public float Video_Aktarım_Bilgisi { get; set; }//16
-        public float Manyetik_Alan { get; set; }//17
+        public float Pil_Gerilimi { get; set; }//7 
+        public float Pil_Gerilimi2 { get; set; }//8
+        public float GPS_Lat { get; set; }//9
+        public float GPS_Long { get; set; }//10
+        public float GPS_Alt { get; set; }//11
+        public string Uydu_Statusu { get; set; }//12
+        public float Pitch { get; set; }//13
+        public float Roll { get; set; }//14
+        public float Yaw { get; set; }//15
+        public float Donus_Sayisi { get; set; }//16
+        public float Video_Aktarım_Bilgisi { get; set; }//17
+        public float Manyetik_Alan { get; set; }//18
 
         public static void Add(Telemetri telemetri)//ekle fonksiyonu oluşturarak datalarımızı value olarak ekliyoruz.
         {
