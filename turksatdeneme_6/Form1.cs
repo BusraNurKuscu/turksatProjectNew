@@ -215,7 +215,7 @@ namespace turksatdeneme_6
         {
             try
             {
-                serialPort1.Write(rhctxtGirdi.Text);
+                serialPort1.Write(rhctxtGirdi.Rtf);
 
                 txtVdGndDnt.Text = ("Gönderme başarılı.");
 
