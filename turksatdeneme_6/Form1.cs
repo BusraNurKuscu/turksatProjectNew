@@ -173,8 +173,7 @@ namespace turksatdeneme_6
                 {
                     txtOtoAyr.Text = ("Otonom ayrılma gerçekleşti.");
                 }
-
-
+                
             }
 
            
